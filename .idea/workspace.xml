@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b6ac30f-9c6d-441e-847e-db47b7f91bae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/queue/ArrayQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queue/CircularArrayQueueDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queue/ArrayQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queue/ArrayQueueDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +58,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -63,9 +66,9 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CircularArrayQueueDemo">
     <configuration name="ArrayQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="queue.ArrayQueueDemo" />
       <module name="Algorithm" />
@@ -79,8 +82,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CircularArrayQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queue.CircularArrayQueueDemo" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CircularArrayQueueDemo" />
         <item itemvalue="Application.ArrayQueueDemo" />
       </list>
     </recent_temporary>
@@ -107,7 +124,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580214217827</updated>
-      <workItem from="1580214221546" duration="2109000" />
+      <workItem from="1580214221546" duration="2536000" />
+      <workItem from="1580275539584" duration="1899000" />
     </task>
     <servers />
   </component>
@@ -119,7 +137,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -134,25 +154,60 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="130" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1580216281329" />
-    <state width="1489" height="585" key="GridCell.Tab.0.bottom" timestamp="1580217195514">
+    <state width="1489" height="350" key="GridCell.Tab.0.bottom" timestamp="1580277506949">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1489" height="585" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580217195514" />
-    <state width="1489" height="585" key="GridCell.Tab.0.center" timestamp="1580217195513">
+    <state width="1489" height="350" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580277506949" />
+    <state width="1489" height="350" key="GridCell.Tab.0.center" timestamp="1580277506949">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1489" height="585" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580217195513" />
-    <state width="1489" height="585" key="GridCell.Tab.0.left" timestamp="1580217195513">
+    <state width="1489" height="350" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580277506949" />
+    <state width="1489" height="350" key="GridCell.Tab.0.left" timestamp="1580277506949">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1489" height="585" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580217195513" />
-    <state width="1489" height="585" key="GridCell.Tab.0.right" timestamp="1580217195513">
+    <state width="1489" height="350" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580277506949" />
+    <state width="1489" height="350" key="GridCell.Tab.0.right" timestamp="1580277506949">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1489" height="585" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580217195513" />
-    <state x="457" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1580214239571">
+    <state width="1489" height="350" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580277506949" />
+    <state width="1489" height="350" key="GridCell.Tab.1.bottom" timestamp="1580277506949">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="457" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580214239571" />
+    <state width="1489" height="350" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580277506949" />
+    <state width="1489" height="350" key="GridCell.Tab.1.center" timestamp="1580277506949">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1489" height="350" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1580277506949" />
+    <state width="1489" height="350" key="GridCell.Tab.1.left" timestamp="1580277506949">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1489" height="350" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1580277506949" />
+    <state width="1489" height="350" key="GridCell.Tab.1.right" timestamp="1580277506949">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1489" height="350" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1580277506949" />
+    <state x="287" y="55" key="SettingsEditor" timestamp="1580275864829">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="287" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580275864829" />
+    <state x="457" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1580275599783">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="457" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580275599783" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1580275927677">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1580275927677" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/queue/CircularArrayQueueDemo.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

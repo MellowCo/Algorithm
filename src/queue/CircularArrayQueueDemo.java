@@ -3,21 +3,21 @@ package queue;
 import java.util.Scanner;
 
 /**
- * @Description: 数组队列
+ * @Description: 循环数组队列
  * @Author: li
- * @Create: 2020-01-28 20:54
+ * @Create: 2020-01-29 13:28
  */
-public class ArrayQueueDemo {
+public class CircularArrayQueueDemo {
     public static void main(String[] args) {
         //创建一个3的队列
-        ArrayQueue queue = new ArrayQueue(3);
+        CircularArrayQueue queue = new CircularArrayQueue(5);
 
         Scanner scanner = new Scanner(System.in);
         //接收用户输入
         char key = ' ';
         boolean flag = true;
 
-        while (flag){
+        while (flag) {
             System.out.println("s(show): 显示队列");
             System.out.println("e(exit): 退出程序");
             System.out.println("a(add): 添加数据到队列");
@@ -64,67 +64,78 @@ public class ArrayQueueDemo {
     }
 }
 
-class ArrayQueue{
-    private int maxSize; //队列最大容量
+class CircularArrayQueue {
+
+    private int maxSize; //最大容量
     private int front; //队列头
     private int rear; //队列尾
-    private int[] arr; //队列的数组
+    private int[] arr;
 
-
-    public ArrayQueue(int maxSize) {
+    public CircularArrayQueue(int maxSize) {
         this.maxSize = maxSize;
+        front = rear = 0; //初始化，front，rear为0
+        //rear 变量的含义做一个调整：rear 指向队列的最后一个元素的后一个位置. 因为希望空出一个空间做为约定.
+        //front 变量的含义做一个调整： front 就指向队列的第一个元素, 也就是说 arr[front] 就是队列的第一个元素
         arr = new int[maxSize];
-        //初始化 front = rear = -1
-        front = -1; // 指向队列头部，分析出front是指向队列头的前一个位置.
-        rear = -1; // 指向队列尾，指向队列尾的数据(即就是队列最后一个数据)
     }
 
-    //队列是否满
-    public boolean isFull(){
-        return rear == maxSize-1;
+    //判断队满
+    public boolean isFull() {
+        return (rear + 1) % maxSize == front;
     }
 
-    //队列是否满
-    public boolean isEmpty(){
+    //判断队空
+    public boolean isEmpty() {
         return rear == front;
     }
 
-    //添加数据
+    //添加
     public void addQueue(int data) {
         if (isFull()) {
-            System.out.println("队列满");
-        }else{
-            arr[++rear] = data;
+            System.out.println("队列满了");
+        } else {
+            //rear 后移一位，添加数据
+            arr[rear] = data;
+            rear = (rear + 1) % maxSize;
         }
     }
 
-    //取出数据
-    public int getQueue(){
+    //出队
+    public int getQueue() {
         if (isEmpty()) {
             throw new RuntimeException("队列为空");
-        }else{
-            return arr[++front];
+        } else {
+            //先保存数据，front后移一位
+            int data = arr[front];
+            front = (front + 1) % maxSize;
+            return data;
+        }
+    }
+
+    //有效数据的个数
+    public int dataSize() {
+        return (rear - front + maxSize) % maxSize;
+    }
+
+    //遍历有效数据
+    public void show() {
+        if (isEmpty()) {
+            System.out.println("队列为空");
+        } else {
+            for (int i = front; i != rear; i = (i + 1) % maxSize) {
+                System.out.println(arr[i]);
+            }
         }
     }
 
     //显示队列头数据
-    public int headQueue(){
+    public int headQueue() {
         if (isEmpty()) {
             throw new RuntimeException("队列为空");
-        }else{
-            return arr[front+1];
+        } else {
+            return arr[front];
         }
     }
 
-    //显示所有数据
-    public void show(){
-        if (isEmpty()) {
-            System.out.println("队列空");
-        }else{
-            for (int i : arr) {
-                System.out.println(i);
-            }
-        }
-    }
 
 }
