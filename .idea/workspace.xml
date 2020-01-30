@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b6ac30f-9c6d-441e-847e-db47b7f91bae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/DoubleLinkedListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/Josepfu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/aa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +16,9 @@
   </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="207" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -64,22 +68,9 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Application.DoubleLinkedListDemo">
-    <configuration name="ArrayQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.ArrayQueueDemo" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Josepfu">
     <configuration name="CircularArrayQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="queue.CircularArrayQueueDemo" />
       <module name="Algorithm" />
@@ -106,6 +97,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Josepfu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.Josepfu" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SingleLinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedlist.SingleLinkedListDemo" />
       <module name="Algorithm" />
@@ -119,12 +123,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="aa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.aa" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Josepfu" />
+        <item itemvalue="Application.aa" />
         <item itemvalue="Application.DoubleLinkedListDemo" />
         <item itemvalue="Application.SingleLinkedListDemo" />
         <item itemvalue="Application.CircularArrayQueueDemo" />
-        <item itemvalue="Application.ArrayQueueDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +170,8 @@
       <updated>1580214217827</updated>
       <workItem from="1580214221546" duration="2536000" />
       <workItem from="1580275539584" duration="16978000" />
-      <workItem from="1580364538170" duration="2151000" />
+      <workItem from="1580364538170" duration="3188000" />
+      <workItem from="1580369444158" duration="6834000" />
     </task>
     <servers />
   </component>
@@ -177,54 +196,54 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="73" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1580214244352" />
-    <state x="574" y="130" key="#com.intellij.ide.util.MemberChooser" timestamp="1580364787714">
+    <state x="574" y="130" key="#com.intellij.ide.util.MemberChooser" timestamp="1580370235591">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="130" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1580364787714" />
+    <state x="574" y="130" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1580370235591" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1580279566940">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1580279566940" />
-    <state width="1474" height="259" key="GridCell.Tab.0.bottom" timestamp="1580366693075">
+    <state width="1474" height="272" key="GridCell.Tab.0.bottom" timestamp="1580376131659">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1474" height="259" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580366693075" />
-    <state width="1474" height="259" key="GridCell.Tab.0.center" timestamp="1580366693075">
+    <state width="1474" height="272" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580376131659" />
+    <state width="1474" height="272" key="GridCell.Tab.0.center" timestamp="1580376131659">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1474" height="259" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580366693075" />
-    <state width="1474" height="259" key="GridCell.Tab.0.left" timestamp="1580366693075">
+    <state width="1474" height="272" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580376131659" />
+    <state width="1474" height="272" key="GridCell.Tab.0.left" timestamp="1580376131658">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1474" height="259" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580366693075" />
-    <state width="1474" height="259" key="GridCell.Tab.0.right" timestamp="1580366693075">
+    <state width="1474" height="272" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580376131658" />
+    <state width="1474" height="272" key="GridCell.Tab.0.right" timestamp="1580376131659">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1474" height="259" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580366693075" />
-    <state width="1474" height="303" key="GridCell.Tab.1.bottom" timestamp="1580366087034">
+    <state width="1474" height="272" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580376131659" />
+    <state width="1474" height="302" key="GridCell.Tab.1.bottom" timestamp="1580376078680">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1474" height="303" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580366087034" />
-    <state width="1474" height="303" key="GridCell.Tab.1.center" timestamp="1580366087033">
+    <state width="1474" height="302" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580376078680" />
+    <state width="1474" height="302" key="GridCell.Tab.1.center" timestamp="1580376078680">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1474" height="303" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1580366087033" />
-    <state width="1474" height="303" key="GridCell.Tab.1.left" timestamp="1580366087033">
+    <state width="1474" height="302" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1580376078680" />
+    <state width="1474" height="302" key="GridCell.Tab.1.left" timestamp="1580376078680">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1474" height="303" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1580366087033" />
-    <state width="1474" height="303" key="GridCell.Tab.1.right" timestamp="1580366087034">
+    <state width="1474" height="302" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1580376078680" />
+    <state width="1474" height="302" key="GridCell.Tab.1.right" timestamp="1580376078680">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1474" height="303" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1580366087034" />
-    <state x="287" y="55" key="SettingsEditor" timestamp="1580275864829">
+    <state width="1474" height="302" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1580376078680" />
+    <state x="135" y="38" width="1230" height="713" key="SettingsEditor" timestamp="1580371826385">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="287" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580275864829" />
-    <state x="457" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1580364558463">
+    <state x="135" y="38" width="1230" height="713" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580371826385" />
+    <state x="457" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1580369482259">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="457" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580364558463" />
+    <state x="457" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580369482259" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1580365797018">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -240,5 +259,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Algorithm$Josepfu.ic" NAME="Josepfu Coverage Results" MODIFIED="1580375928227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>linkedlist.*</FILTER>
+    </SUITE>
   </component>
 </project>
