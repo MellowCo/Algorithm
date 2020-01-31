@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b6ac30f-9c6d-441e-847e-db47b7f91bae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/recursion/MiGong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/Queen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +69,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Application.MiGong">
+  <component name="RunManager" selected="Application.Queen">
     <configuration name="ArrayStackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stack.ArrayStackDemo" />
       <module name="Algorithm" />
@@ -122,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="aa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.aa" />
+    <configuration name="Queen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.Queen" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
+          <option name="PATTERN" value="recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Queen" />
         <item itemvalue="Application.MiGong" />
         <item itemvalue="Application.LinkedlistStackDemo" />
         <item itemvalue="Application.ArrayStackDemo" />
         <item itemvalue="Application.Josepfu" />
-        <item itemvalue="Application.aa" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +171,7 @@
       <workItem from="1580275539584" duration="16978000" />
       <workItem from="1580364538170" duration="3188000" />
       <workItem from="1580369444158" duration="12752000" />
-      <workItem from="1580454641329" duration="1127000" />
+      <workItem from="1580454641329" duration="11363000" />
     </task>
     <servers />
   </component>
@@ -204,42 +204,42 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1580279566940" />
-    <state width="1489" height="305" key="GridCell.Tab.0.bottom" timestamp="1580455768196">
+    <state width="1489" height="253" key="GridCell.Tab.0.bottom" timestamp="1580465250454">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1489" height="305" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580455768196" />
-    <state width="1489" height="305" key="GridCell.Tab.0.center" timestamp="1580455768195">
+    <state width="1489" height="253" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580465250454" />
+    <state width="1489" height="253" key="GridCell.Tab.0.center" timestamp="1580465250454">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1489" height="305" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580455768195" />
-    <state width="1489" height="305" key="GridCell.Tab.0.left" timestamp="1580455768195">
+    <state width="1489" height="253" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580465250454" />
+    <state width="1489" height="253" key="GridCell.Tab.0.left" timestamp="1580465250454">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1489" height="305" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580455768195" />
-    <state width="1489" height="305" key="GridCell.Tab.0.right" timestamp="1580455768195">
+    <state width="1489" height="253" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580465250454" />
+    <state width="1489" height="253" key="GridCell.Tab.0.right" timestamp="1580465250454">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1489" height="305" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580455768195" />
-    <state width="1474" height="302" key="GridCell.Tab.1.bottom" timestamp="1580385774709">
+    <state width="1489" height="253" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580465250454" />
+    <state width="1489" height="305" key="GridCell.Tab.1.bottom" timestamp="1580464554160">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1474" height="302" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580385774709" />
-    <state width="1474" height="302" key="GridCell.Tab.1.center" timestamp="1580385774709">
+    <state width="1489" height="305" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580464554160" />
+    <state width="1489" height="305" key="GridCell.Tab.1.center" timestamp="1580464554159">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1474" height="302" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1580385774709" />
-    <state width="1474" height="302" key="GridCell.Tab.1.left" timestamp="1580385774708">
+    <state width="1489" height="305" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1580464554159" />
+    <state width="1489" height="305" key="GridCell.Tab.1.left" timestamp="1580464554159">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1474" height="302" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1580385774708" />
-    <state width="1474" height="302" key="GridCell.Tab.1.right" timestamp="1580385774709">
+    <state width="1489" height="305" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1580464554159" />
+    <state width="1489" height="305" key="GridCell.Tab.1.right" timestamp="1580464554160">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1474" height="302" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1580385774709" />
-    <state x="135" y="38" width="1230" height="713" key="SettingsEditor" timestamp="1580454945875">
+    <state width="1489" height="305" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1580464554160" />
+    <state x="135" y="38" width="1230" height="713" key="SettingsEditor" timestamp="1580456393451">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="135" y="38" width="1230" height="713" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580454945875" />
+    <state x="135" y="38" width="1230" height="713" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580456393451" />
     <state x="457" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1580454650798">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
