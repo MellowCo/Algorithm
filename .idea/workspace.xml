@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b6ac30f-9c6d-441e-847e-db47b7f91bae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sort/ShellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +69,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Application.ShellSort">
+  <component name="RunManager" selected="Application.QuickSort">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sort.BubbleSort" />
       <module name="Algorithm" />
@@ -96,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Queen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.Queen" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.QuickSort" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.*" />
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.ShellSort" />
         <item itemvalue="Application.InsertSort" />
         <item itemvalue="Application.SelectSort" />
         <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.Queen" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +172,7 @@
       <workItem from="1580364538170" duration="3188000" />
       <workItem from="1580369444158" duration="12752000" />
       <workItem from="1580454641329" duration="17069000" />
-      <workItem from="1580537508696" duration="3465000" />
+      <workItem from="1580537508696" duration="6010000" />
     </task>
     <servers />
   </component>
@@ -205,22 +205,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1580279566940" />
-    <state width="1489" height="177" key="GridCell.Tab.0.bottom" timestamp="1580540845536">
+    <state width="1489" height="448" key="GridCell.Tab.0.bottom" timestamp="1580546256973">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1489" height="177" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580540845536" />
-    <state width="1489" height="177" key="GridCell.Tab.0.center" timestamp="1580540845535">
+    <state width="1489" height="448" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580546256973" />
+    <state width="1489" height="448" key="GridCell.Tab.0.center" timestamp="1580546256973">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1489" height="177" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580540845535" />
-    <state width="1489" height="177" key="GridCell.Tab.0.left" timestamp="1580540845535">
+    <state width="1489" height="448" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580546256973" />
+    <state width="1489" height="448" key="GridCell.Tab.0.left" timestamp="1580546256973">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1489" height="177" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580540845535" />
-    <state width="1489" height="177" key="GridCell.Tab.0.right" timestamp="1580540845536">
+    <state width="1489" height="448" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580546256973" />
+    <state width="1489" height="448" key="GridCell.Tab.0.right" timestamp="1580546256973">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1489" height="177" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580540845536" />
+    <state width="1489" height="448" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580546256973" />
     <state width="1489" height="305" key="GridCell.Tab.1.bottom" timestamp="1580474383535">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
