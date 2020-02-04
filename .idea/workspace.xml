@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b6ac30f-9c6d-441e-847e-db47b7f91bae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tree/HuffmanTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/BinarySortTreeDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +69,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
-  <component name="RunManager" selected="Application.HuffmanTree">
+  <component name="RunManager" selected="Application.BinarySortTreeDemo">
     <configuration name="ArrBinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tree.ArrBinaryTreeDemo" />
       <module name="Algorithm" />
@@ -83,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.BinaryTreeDemo" />
+    <configuration name="BinarySortTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.BinarySortTreeDemo" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -137,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySortTreeDemo" />
         <item itemvalue="Application.HuffmanTree" />
         <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.MergetSort" />
         <item itemvalue="Application.ArrBinaryTreeDemo" />
-        <item itemvalue="Application.BinaryTreeDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +177,7 @@
       <workItem from="1580708862370" duration="260000" />
       <workItem from="1580711533222" duration="64000" />
       <workItem from="1580711652062" duration="7712000" />
-      <workItem from="1580801023889" duration="1203000" />
+      <workItem from="1580801023889" duration="9212000" />
     </task>
     <servers />
   </component>
@@ -206,46 +206,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="73" key="#Updates/0.0.1536.824@0.0.1536.824" timestamp="1580711677080" />
-    <state x="574" y="130" key="#com.intellij.ide.util.MemberChooser" timestamp="1580801745262">
+    <state x="574" y="130" key="#com.intellij.ide.util.MemberChooser" timestamp="1580803103616">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="130" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1580801745262" />
+    <state x="574" y="130" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1580803103616" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1580279566940">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1580279566940" />
-    <state width="1489" height="258" key="GridCell.Tab.0.bottom" timestamp="1580802280914">
+    <state width="1489" height="305" key="GridCell.Tab.0.bottom" timestamp="1580810183497">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1489" height="258" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580802280914" />
-    <state width="1489" height="258" key="GridCell.Tab.0.center" timestamp="1580802280914">
+    <state width="1489" height="305" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580810183497" />
+    <state width="1489" height="305" key="GridCell.Tab.0.center" timestamp="1580810183497">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1489" height="258" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580802280914" />
-    <state width="1489" height="258" key="GridCell.Tab.0.left" timestamp="1580802280913">
+    <state width="1489" height="305" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580810183497" />
+    <state width="1489" height="305" key="GridCell.Tab.0.left" timestamp="1580810183497">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1489" height="258" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580802280913" />
-    <state width="1489" height="258" key="GridCell.Tab.0.right" timestamp="1580802280914">
+    <state width="1489" height="305" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580810183497" />
+    <state width="1489" height="305" key="GridCell.Tab.0.right" timestamp="1580810183497">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1489" height="258" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580802280914" />
-    <state width="1489" height="305" key="GridCell.Tab.1.bottom" timestamp="1580652179528">
+    <state width="1489" height="305" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580810183497" />
+    <state width="1489" height="305" key="GridCell.Tab.1.bottom" timestamp="1580810183498">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1489" height="305" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580652179528" />
-    <state width="1489" height="305" key="GridCell.Tab.1.center" timestamp="1580652179528">
+    <state width="1489" height="305" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580810183498" />
+    <state width="1489" height="305" key="GridCell.Tab.1.center" timestamp="1580810183498">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1489" height="305" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1580652179528" />
-    <state width="1489" height="305" key="GridCell.Tab.1.left" timestamp="1580652179528">
+    <state width="1489" height="305" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1580810183498" />
+    <state width="1489" height="305" key="GridCell.Tab.1.left" timestamp="1580810183498">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1489" height="305" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1580652179528" />
-    <state width="1489" height="305" key="GridCell.Tab.1.right" timestamp="1580652179528">
+    <state width="1489" height="305" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1580810183498" />
+    <state width="1489" height="305" key="GridCell.Tab.1.right" timestamp="1580810183498">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1489" height="305" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1580652179528" />
+    <state width="1489" height="305" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1580810183498" />
     <state x="306" y="16" width="1230" height="713" key="SettingsEditor" timestamp="1580711778761">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -254,10 +254,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="457" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580801022872" />
-    <state x="431" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1580648427676">
+    <state x="431" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1580803057691">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1580648427676" />
+    <state x="431" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1580803057691" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
