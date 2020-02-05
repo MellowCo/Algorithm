@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b6ac30f-9c6d-441e-847e-db47b7f91bae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/graph/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/binarySearch/BinarySearchNoRecur.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,13 +69,26 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Application.Graph">
+  <component name="RunManager" selected="Application.BinarySearchNoRecur">
     <configuration name="AvlTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tree.AvlTreeDemo" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearchNoRecur" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.binarySearch.BinarySearchNoRecur" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.binarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,19 +122,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.HeapSort" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HuffmanTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tree.HuffmanTree" />
       <module name="Algorithm" />
@@ -137,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearchNoRecur" />
         <item itemvalue="Application.Graph" />
         <item itemvalue="Application.AvlTreeDemo" />
         <item itemvalue="Application.BinarySortTreeDemo" />
         <item itemvalue="Application.HuffmanTree" />
-        <item itemvalue="Application.HeapSort" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +178,7 @@
       <workItem from="1580711533222" duration="64000" />
       <workItem from="1580711652062" duration="7712000" />
       <workItem from="1580801023889" duration="14985000" />
-      <workItem from="1580886198619" duration="2680000" />
+      <workItem from="1580886198619" duration="3572000" />
     </task>
     <servers />
   </component>
@@ -215,38 +215,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1580279566940" />
-    <state width="1489" height="293" key="GridCell.Tab.0.bottom" timestamp="1580890378323">
+    <state width="1489" height="429" key="GridCell.Tab.0.bottom" timestamp="1580893374045">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1489" height="293" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580890378323" />
-    <state width="1489" height="293" key="GridCell.Tab.0.center" timestamp="1580890378323">
+    <state width="1489" height="429" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580893374045" />
+    <state width="1489" height="429" key="GridCell.Tab.0.center" timestamp="1580893374044">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1489" height="293" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580890378323" />
-    <state width="1489" height="293" key="GridCell.Tab.0.left" timestamp="1580890378323">
+    <state width="1489" height="429" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580893374044" />
+    <state width="1489" height="429" key="GridCell.Tab.0.left" timestamp="1580893374044">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1489" height="293" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580890378323" />
-    <state width="1489" height="293" key="GridCell.Tab.0.right" timestamp="1580890378323">
+    <state width="1489" height="429" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580893374044" />
+    <state width="1489" height="429" key="GridCell.Tab.0.right" timestamp="1580893374044">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1489" height="293" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580890378323" />
-    <state width="1489" height="436" key="GridCell.Tab.1.bottom" timestamp="1580819153040">
+    <state width="1489" height="429" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580893374044" />
+    <state width="1489" height="436" key="GridCell.Tab.1.bottom" timestamp="1580893364933">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1489" height="436" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580819153040" />
-    <state width="1489" height="436" key="GridCell.Tab.1.center" timestamp="1580819153039">
+    <state width="1489" height="436" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580893364933" />
+    <state width="1489" height="436" key="GridCell.Tab.1.center" timestamp="1580893364933">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1489" height="436" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1580819153039" />
-    <state width="1489" height="436" key="GridCell.Tab.1.left" timestamp="1580819153039">
+    <state width="1489" height="436" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1580893364933" />
+    <state width="1489" height="436" key="GridCell.Tab.1.left" timestamp="1580893364932">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1489" height="436" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1580819153039" />
-    <state width="1489" height="436" key="GridCell.Tab.1.right" timestamp="1580819153040">
+    <state width="1489" height="436" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1580893364932" />
+    <state width="1489" height="436" key="GridCell.Tab.1.right" timestamp="1580893364933">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1489" height="436" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1580819153040" />
+    <state width="1489" height="436" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1580893364933" />
     <state x="306" y="16" width="1230" height="713" key="SettingsEditor" timestamp="1580812152030">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
